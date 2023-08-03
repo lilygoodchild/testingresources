@@ -75,17 +75,19 @@ struct ContentView: View {
                         Text("Maths")
                         
                         HStack(spacing: 15.0){
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "mathswatch", urlString: "https://vle.mathswatch.co.uk/vle/")
+
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "mathgenie", urlString: "https://www.mathsgenie.co.uk/")
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
-                            
-                            
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "TLMaths", urlString:
+                                "https://www.youtube.com/c/TLMaths")
                             
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "mathstutor", urlString: "https://www.youtube.com/@TheGCSEMathsTutor")
+                            
+                            
+                            LinkButton(imageName: "pmt", urlString: "https://www.physicsandmathstutor.com/maths-revision/")
                             
                         }.padding(.horizontal, 15.0)
                     }.padding(.top,10.0).padding(.bottom, 10.0).background(Color(red: 167/255, green: 212/255, blue: 155/255)).cornerRadius(15).shadow(radius: 3)
@@ -116,17 +118,17 @@ struct ContentView: View {
                         Text("Geography")
                         
                         HStack(spacing: 15.0){
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "pmt", urlString: " https://www.physicsandmathstutor.com/geography-revision/")
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "link", urlString: "https://www.bbc.co.uk/bitesize/subjects/z2f3cdm")
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
-                            
-                            
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "rgs", urlString: " https://www.rgs.org/")
                             
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "seneca", urlString: "https://senecalearning.com/en-GB/")
+                            
+                            
+                            LinkButton(imageName: "tutor2u", urlString: " https://www.tutor2u.net/geography")
                             
                         }.padding(.horizontal, 15.0)
                     }.padding(.top,10.0).padding(.bottom, 10.0).background(Color(red: 167/255, green: 212/255, blue: 155/255)).cornerRadius(15).shadow(radius: 3)
@@ -157,15 +159,15 @@ struct ContentView: View {
                         Text("French")
                         
                         HStack(spacing: 15.0){
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "linguascope", urlString: "https://www.linguascope.com/")
                             
+                            LinkButton(imageName: "seneca", urlString: "https://senecalearning.com/en-GB/")
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "quizlet", urlString: "https://quizlet.com/en-gb")
                             
+                            LinkButton(imageName: "savemyexams", urlString: "https://www.savemyexams.com/gcse/geography/")
                             
-                            LinkButton(imageName: "link", urlString: "https://www.google.com")
+                            LinkButton(imageName: "babbel", urlString: "https://uk.babbel.com/pages/en-gb/evergreen-multilanguage?bsc=gg_nb_srh_eng_all&btp=default&gclid=Cj0KCQjwoK2mBhDzARIsADGbjer8cTzAAxov9I2B7L3a_7kWhv0XskzfV-gCHiT1BaVz-uPTkZVFzd8aAiQKEALw_wcB&utm_content=17293993097_136539680813_kwd-28954316_632781806553&utm_medium=cpc&utm_source=google")
                             
                         }.padding(.horizontal, 15.0)
                     }.padding(.top,10.0).padding(.bottom, 10.0).background(Color(red: 167/255, green: 212/255, blue: 155/255)).cornerRadius(15).shadow(radius: 3)
